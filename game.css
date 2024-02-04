@@ -1,0 +1,10 @@
+body {
+  font-family:'Papyrus';
+  font-size:'22px';
+  text-align: center;
+}
+
+#board {
+  background-color: rgb(171, 228, 253);
+  border-bottom: 11px solid rgb(188, 254, 202);
+}
