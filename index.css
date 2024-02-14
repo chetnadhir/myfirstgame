@@ -20,6 +20,9 @@ button {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 8px;
+  position: auto;
+  top: 8px;
+  right: 50px;
 }
 /*day night theme stuff  */
 .dark-mode {
