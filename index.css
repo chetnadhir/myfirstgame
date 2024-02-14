@@ -8,3 +8,26 @@ body {
   background-color: rgb(171, 228, 253);
   border-bottom: 11px solid rgb(188, 254, 202);
 }
+button {
+  background-color: #ffd1dc; /* Pastel pink color */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+/*day night theme stuff  */
+.dark-mode {
+  background-color: #000;
+  color: #fff;
+}
+#mybtn {
+  position: fixed;
+  top: 8px;
+  right: 20px;
+}
