@@ -22,7 +22,7 @@ button {
   border-radius: 8px;
   position: fixed;
   top: 0; 
-  right: 10px;
+  left: 10px;
 }
 }
 /*day night theme stuff  */
