@@ -28,8 +28,8 @@ button {
 }
 #mybtn {
   position: fixed;
-  top: 0px;
-  right: 20px;
+  top: 0%;
+  right: 20%;
 }
 /* restart */
 #restartButtonContainer {
