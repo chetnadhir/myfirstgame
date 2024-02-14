@@ -35,3 +35,10 @@ button {
   top: 25px;
   right: 20px;
 }
+/* restart */
+#restartButtonContainer {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 9999; 
+}
