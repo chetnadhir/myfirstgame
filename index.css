@@ -20,20 +20,18 @@ button {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 8px;
-  position: relative;
-  top: 0; 
-  right: 10px;
+  
 }
 }
 /*day night theme stuff  */
 .dark-mode {
   background-color: #000;
-  color: #fff;
+  color: ##e2c5fd;
 }
 #mybtn {
-  position: relative;
-  top: 25px;
-  right: 20px;
+  position: fixed;
+  top: 0%;
+  left: 80%
 }
 /* restart */
 #restartButtonContainer {
