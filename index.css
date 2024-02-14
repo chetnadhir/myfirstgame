@@ -20,7 +20,7 @@ button {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 8px;
-  position: fixed;
+  position: relative;
   top: 0; 
   right: 10px;
 }
@@ -31,7 +31,7 @@ button {
   color: #fff;
 }
 #mybtn {
-  position: fixed;
+  position: relative;
   top: 8px;
   right: 20px;
 }
