@@ -170,3 +170,21 @@ function detectCollision(a, b) {
         a.y < b.y + b.height &&
         a.y + a.height > b.y;
 }
+function darkmode(){
+    var SetTheme = document.body;
+    SetTheme.classList.toggle("dark-mode");
+    var theme;
+    if(SetTheme.classList.contains("dark-mode")){
+        console.log("Dark mode");
+        theme = "DARK";
+        document.getElementById("mybtn").innerHTML = '<img src="sun.png" alt="Sun Icon">'; // Change button content to sun icon
+        document.body.style.backgroundColor = '#000'; // Change background color to black
+    } else {
+        console.log("Light mode");
+        theme = "LIGHT";
+        document.getElementById("mybtn").innerHTML = '<img src="moon.png" alt="Moon Icon">'; // Change button content to moon icon
+        document.body.style.backgroundColor = '#fff'; // Change background color to white
+    }
+    // Save the current theme preference to localStorage
+    localStorage.setItem("PageTheme", JSON.stringify(theme));
+}
