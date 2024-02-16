@@ -34,7 +34,7 @@ let chocolate2Img;
 let chocolate3Img;
 
 // Physics properties
-let velocityX = -8; // moving left speed
+let velocityX = -9; // moving left speed
 let velocityY = 0;
 let gravity = .4;
 
