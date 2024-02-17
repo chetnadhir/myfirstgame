@@ -35,7 +35,7 @@ let chocolate3Img;
 
 // Physics properties
 let velocityX = -8; // moving left speed
-let velocityY = 0;
+let velocityY = 1;
 let gravity = .4;
 
 let gameOver = false;
