@@ -25,7 +25,7 @@ let chocolate1Width = 34;
 let chocolate2Width = 69;
 let chocolate3Width = 102;
 
-let chocolateHeight = 70;
+let chocolateHeight = 44;
 let chocolateX = 700;
 let chocolateY = boardHeight - chocolateHeight;
 
@@ -145,23 +145,28 @@ function placeChocolate() {
         chocolate.img = chocolate3Img;
         chocolate.width = chocolate3Width;
         chocolateArray.push(chocolate);
+        playChocolateSound(); // Play the chocolate sound
     } 
     else if (placeChocolateChance > .70) { // 20%
         chocolate.img = chocolate2Img;
         chocolate.width = chocolate2Width;
         chocolateArray.push(chocolate);
+        playChocolateSound(); // Play the chocolate sound
     } 
     else if (placeChocolateChance > .50) { // 20%
         chocolate.img = chocolate1Img;
         chocolate.width = chocolate1Width;
         chocolateArray.push(chocolate);
+        playChocolateSound(); // Play the chocolate sound
     }
-
-    
 
     if (chocolateArray.length > 5) {
         chocolateArray.shift(); // Remove the first element from the array so that the array doesn't constantly grow
     }
+}
+
+function playChocolateSound() {
+    chocolateSound.play(); // Play the chocolate sound
 }
 
 function detectCollision(a, b) {
